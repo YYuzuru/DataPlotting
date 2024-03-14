@@ -2,6 +2,8 @@
 Primitive Data plotting plugin for unity developed by
 Moritz Hetterich and Thomas Nguyen.
 
+https://github.com/YYuzuru/DataPlotting/assets/43245066/b045cfe9-579b-4b13-9927-27c00a2f702b
+
 ### Abstract
 Unity DataPlotting is a plugin for the Unity game
 engine, allowing developers to seamlessly integrate a data
@@ -34,3 +36,4 @@ To customize the #IPlot game object, you can cast it to #IPlot2D and #IPlot3D. H
 
 
 For more information visit the documentation file in Documentation.
+

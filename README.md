@@ -23,6 +23,11 @@ Import the .unitypackage file into your project and add the DataPlot-Prefab to y
 Place the provided Prefab into your scene and confirm the presence of both the [EventSystem](https://docs.unity3d.com/2021.3/Documentation/Manual/EventSystem.html) and the [StandaloneInputModule](file:///C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Documentation/en/Manual/script-StandaloneInputModule.html). The StandaloneInputModule is responsible for handling events for UI elements like buttons and input fields. If these modules are not present, they will be automatically generated when you create a canvas in the scene. However, note that no modules will be created for the prefab itself.
 
 After adding the desired prefab to the scene, connect the camera used for the player to the canvas of the prefab. At this point, you should be able to interact with the graph in the game scene during play mode. 
+
+##Limitations
+- Draw only continuous functions
+- limited amount of points
+
 ## Adding plots:
 To generate a plot with two values, utilize #IGraph2D; for three values, employ #IGraph3D. Incorporate the plot using `AddPlot(IFunction2D function, params Color[] color)` for #IGraph2D and `AddPlot(IFunction3D function, params Color[] color)` for #IGraph3D. Ensure to retain the returned plot for improved customization accessibility. To create function instances, refer to #Function.
 

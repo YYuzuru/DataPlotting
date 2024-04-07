@@ -17,6 +17,11 @@ or logarithmic representation. One of the key strengths of Unity
 DataPlotting lies in its complete customizability, making it a
 perfect fit for any 2D, 3D, or VR project developed within the
 Unity game engine.
+
+### Limitations
+- Draw only continuous functions
+- limited amount of points
+
 ### Installation and setup
 Import the .unitypackage file into your project and add the DataPlot-Prefab to your hierarchy. DO NOT rename the prefab in your hierarchy or any of its children.
 ## Setting up
@@ -24,9 +29,7 @@ Place the provided Prefab into your scene and confirm the presence of both the [
 
 After adding the desired prefab to the scene, connect the camera used for the player to the canvas of the prefab. At this point, you should be able to interact with the graph in the game scene during play mode. 
 
-##Limitations
-- Draw only continuous functions
-- limited amount of points
+
 
 ## Adding plots:
 To generate a plot with two values, utilize #IGraph2D; for three values, employ #IGraph3D. Incorporate the plot using `AddPlot(IFunction2D function, params Color[] color)` for #IGraph2D and `AddPlot(IFunction3D function, params Color[] color)` for #IGraph3D. Ensure to retain the returned plot for improved customization accessibility. To create function instances, refer to #Function.

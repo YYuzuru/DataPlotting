@@ -1,8 +1,24 @@
 # DataPlotting
-Primitive Data plotting plugin for unity developed by
-Moritz Hetterich and Thomas Nguyen.
+Primitive Data plotting plugin for unity developed by Moritz Hetterich and Thomas Nguyen.
+
 
 https://github.com/YYuzuru/DataPlotting/assets/43245066/b045cfe9-579b-4b13-9927-27c00a2f702b
+### Features:
+#### GraphPlotter
+- Axis can be display in **Logarithmic** or  **Linear** 
+- Customization: **Ticks**
+- QoL: Prefab for basic customization for 2D and 3D plots
+
+#### 2D Plotter
+
+- Functioninput as **List of points** or **mathematical expression as function/lambda**
+- Display as **Line**, **Scatter**
+- Customization: **Color**, ** Thickness**
+
+#### 3D Plotter
+- csv files to heatmap
+- Colorrange to display valuerange
+
 
 ### Abstract
 Unity DataPlotting is a plugin for the Unity game
